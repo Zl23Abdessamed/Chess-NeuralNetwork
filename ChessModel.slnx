@@ -1,0 +1,10 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/ChessModel.Api/ChessModel.Api.csproj" />
+    <Project Path="src/ChessModel.Cli/ChessModel.Cli.csproj" />
+    <Project Path="src/ChessModel.Core/ChessModel.Core.csproj" />
+  </Folder>
+  <Folder Name="/tests/">
+    <Project Path="tests/ChessModel.Tests/ChessModel.Tests.csproj" />
+  </Folder>
+</Solution>

@@ -1,0 +1,43 @@
+{
+  "schemaVersion": 1,
+  "data": {
+    "playerNames": [
+      "ZlAndessamed",
+      "Zl23Abdessamed"
+    ],
+    "allowedTimeControls": [
+      "600+0",
+      "600+5",
+      "900+10",
+      "1800",
+      "1800+0"
+    ],
+    "splitSeed": 42,
+    "split": {
+      "train": 0.8,
+      "validation": 0.1,
+      "test": 0.1
+    }
+  },
+  "training": {
+    "randomSeed": 42,
+    "maxEpochs": 100,
+    "batchSizePositions": 32,
+    "learningRate": 0.001,
+    "weightDecay": 0.0001,
+    "dropout": 0.1,
+    "earlyStoppingPatience": 10,
+    "hiddenLayer1": 256,
+    "hiddenLayer2": 128
+  },
+  "careful": {
+    "stockfishPath": "./tools/stockfish",
+    "depth": 12,
+    "threads": 1,
+    "hashMb": 64,
+    "maxNeuralCandidates": 5,
+    "maxCentipawnLoss": 150,
+    "fallbackToStockfishBestMove": true,
+    "analysisTimeoutMilliseconds": 3000
+  }
+}

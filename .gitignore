@@ -1,0 +1,54 @@
+# Dependencies
+node_modules/
+
+# SolidJS / Vite build output
+dist/
+.vite/
+.solid/
+
+# JavaScript tooling caches
+.cache/
+.parcel-cache/
+.turbo/
+.eslintcache
+*.tsbuildinfo
+
+# Environment files
+.env
+.env.*
+!.env.example
+!.env.sample
+
+# .NET build output
+bin/
+obj/
+
+# Visual Studio / VS Code user files
+.vs/
+*.user
+*.userosscache
+*.suo
+*.sln.docstates
+.vscode/*
+!.vscode/extensions.json
+!.vscode/launch.json
+!.vscode/settings.json
+!.vscode/tasks.json
+
+# Test and coverage output
+TestResults/
+coverage/
+*.trx
+*.coverage
+*.coveragexml
+
+# Logs and local databases
+*.log
+*.db
+*.db-shm
+*.db-wal
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
